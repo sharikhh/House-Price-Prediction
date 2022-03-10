@@ -2,7 +2,7 @@
 ## Index
 1. [Introduction](#Introduction)
 2. [Workflow](#Workflow)
-3. [DataPreprocessing](#DataPreprocessing)
+3. [Data Preprocessing](#DataPreprocessing)
     1. [Missing Values](#1.-Missing-Values)
     2. [Distribution of the numerical variables](#2.-Distribution-of-the-numerical-variables )
 
