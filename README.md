@@ -3,8 +3,8 @@
 1. [Introduction](#Introduction)
 2. [Workflow](#Workflow)
 3. [DataPreprocessing](#DataPreprocessing)
-    1. [Missing Values](#1.-Missing Values)
-    2. [Distribution of the numerical variables](#2.-Distribution of the numerical variables )
+    1. [Missing Values](#1.-Missing-Values)
+    2. [Distribution of the numerical variables](#2.-Distribution-of-the-numerical-variables )
 
 ## Introduction
 This project has been done to have a better understanding of what and how the house prices are decided.
