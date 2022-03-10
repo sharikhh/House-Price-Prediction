@@ -1,7 +1,7 @@
 ![photo](s1.jpg)
 ## Index
 1. [Introduction](#Introduction)
-2. [Proposed Workflow](#Proposed Workflow)
+2. [Workflow](#Workflow)
 3. [DataPreprocessing](#DataPreprocessing)
     1. [Missing Values](#1.-Missing Values)
     2. [Distribution of the numerical variables](#2.-Distribution of the numerical variables )
@@ -11,7 +11,7 @@ This project has been done to have a better understanding of what and how the ho
 
 In this project, I am  predicting the sale price of the houses using various machine learning algorithms. Housing sales price are determined by numerous factors such as material quality, living area square feet , Size of garage, location of the house number of bedrooms and so on. In particular, we focus on various features that usually applicants consider them. I have used the data of Kaggle website. Then used machine learning algorithms such as Ridge Regression, Lasso Regression and ElasticNet Regression to build the prediction model for houses to predict sale prices. Further, we have compared these algorithms based on RMSE parameter. Finally, to improve the accuracy of our model we blend the results.
 
-## Proposed Workflow
+## Workflow
 ![photo](s2.jpg)
 
 ## Data PreProcessing 
