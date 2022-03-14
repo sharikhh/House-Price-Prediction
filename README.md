@@ -4,6 +4,8 @@
 2. [Workflow](#Workflow)
 3. [Data PreProcessing](#DataPreprocessing)
     1. [Missing Values](#1.-Missing-Values)
+    2. [Outliers](#2.-Outliers)
+    3. [Scaling](#3.-Scaling)
 ## Introduction
 This project has been done to have a better understanding of what and how the house prices are decided.
 
@@ -17,4 +19,10 @@ In this project, I am  predicting the sale price of the houses using various mac
 Here we can see the percentage of the missing values.
 
 ![photo](pic1.jpg)
+
+We handle these missing values by replacing them if they are continuous variables or by removing them if there can’t be any logical solution to replace the null value with. If the variable itself contains more than 80% of the null data then that variable has to be dropped.
+### 2. Outliers
+Outliers are values that are much more than a specified range in which most of the values lies, they are known as outliers these outliers tend to disturb the learning of the model thus, they should be removed. so that the model which is built is learned on proper data. I have used the boxplot to represent the boxplot of each and every variable and used the IQR method to remove these outliers. 
+### 3. Scaling 
+Scaling is important after completely cleaning the data because all the variables should be in the same scale otherwise one variable woul get more or less importance if the scaling is not done 
 
