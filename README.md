@@ -2,10 +2,11 @@
 ## Index
 1. [Introduction](#Introduction)
 2. [Workflow](#Workflow)
-3. [Data PreProcessing](#DataPreprocessing)
+3. [Data PreProcessing](#Data-Preprocessing)
     1. [Missing Values](#1.-Missing-Values)
     2. [Outliers](#2.-Outliers)
     3. [Scaling](#3.-Scaling)
+4. [Feature Selection](#Feature-Selection)
 ## Introduction
 This project has been done to have a better understanding of what and how the house prices are decided.
 
@@ -25,4 +26,12 @@ We handle these missing values by replacing them if they are continuous variable
 Outliers are values that are much more than a specified range in which most of the values lies, they are known as outliers these outliers tend to disturb the learning of the model thus, they should be removed. so that the model which is built is learned on proper data. I have used the boxplot to represent the boxplot of each and every variable and used the IQR method to remove these outliers. 
 ### 3. Scaling 
 Scaling is important after completely cleaning the data because all the variables should be in the same scale otherwise one variable woul get more or less importance if the scaling is not done 
+After Scaling is done I saved the cleaned data in a different DataFrame 
+
+## Feature Selection 
+In this process of feature selection I have to select the features which are best fit for the model and the workflow of feature selection is given below.
+
+![photo](s3.jpg)
+
+However we know that there are different features in each and every selection method but we don't know what might be their accuracy so we have to develop a linear regression model with all the three feature selection methods.
 
